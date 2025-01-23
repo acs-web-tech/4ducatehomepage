@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Press+Start+2P&family=VT323&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background: #121212;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.navbar-nav {
+    margin-right: 40px;
+}
+
+.nav-item a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.hacking-path {
+    animation: colorChange 4s infinite alternate;
+}
+
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #212121;
+    border: 2px solid #313131;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+}
+
+.content .heading {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.content .para {
+    line-height: 1.5;
+}
+
+.content .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: #0974f1;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(9, 117, 241, 0.8);
+    border-color: #0974f1;
+}
+
+.content .btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+}
+
+.content .btn:active {
+    box-shadow: none;
+}
+
+
+
+
+.card-title{
+    color: #ff9900;
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+.card-text{
+    color: #e8e8e8;
+}
+
+.custom-section {
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #2d2d2d;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  .custom-section h2 {
+    color: #ffa500;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .custom-section p {
+    font-size: 1rem;
+  }
+  .custom-section .icon {
+    font-size: 30px;
+    color: #ffa500;
+    margin-bottom: 10px;
+  }
+  .custom-button {
+    margin-top: 15px;
+  }
+
+
+  

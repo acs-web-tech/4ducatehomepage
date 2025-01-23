@@ -1,0 +1,34 @@
+.certificate {
+  background-color: #2b2b2b;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  width: 100%;
+}
+.certificate img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  
+  border-radius: 10px;
+}
+.certificate h2 {
+  color: #ffa500;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.certificate h3 {
+  font-weight: bold;
+  text-align: center;
+  margin: 10px 0;
+}
+.certificate p {
+  text-align: center;
+  margin: 10px 0;
+}
+.certificate hr {
+  border-color: #ffa500;
+}
